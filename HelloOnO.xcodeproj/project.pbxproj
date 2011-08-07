@@ -21,11 +21,11 @@
 		FD28B56113EED7C20033D4C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FD28B56313EED7C20033D4C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FD28B56513EED7C20033D4C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FD28B56913EED7C20033D4C7 /* HelloOnO-Info.plist */ = {isa = PBXFileReference; path = "HelloOnO-Info.plist"; sourceTree = "<group>"; };
+		FD28B56913EED7C20033D4C7 /* HelloOnO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloOnO-Info.plist"; sourceTree = "<group>"; };
 		FD28B56B13EED7C20033D4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD28B56D13EED7C20033D4C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FD28B56F13EED7C20033D4C7 /* HelloOnO-Prefix.pch */ = {isa = PBXFileReference; path = "HelloOnO-Prefix.pch"; sourceTree = "<group>"; };
-		FD28B57013EED7C20033D4C7 /* HelloOnOAppDelegate.h */ = {isa = PBXFileReference; path = HelloOnOAppDelegate.h; sourceTree = "<group>"; };
+		FD28B56F13EED7C20033D4C7 /* HelloOnO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloOnO-Prefix.pch"; sourceTree = "<group>"; };
+		FD28B57013EED7C20033D4C7 /* HelloOnOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloOnOAppDelegate.h; sourceTree = "<group>"; };
 		FD28B57113EED7C20033D4C7 /* HelloOnOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloOnOAppDelegate.m; sourceTree = "<group>"; };
 		FD28B57413EED7C20033D4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
