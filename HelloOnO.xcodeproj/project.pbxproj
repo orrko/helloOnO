@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD28B56213EED7C20033D4C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD28B56113EED7C20033D4C7 /* UIKit.framework */; };
+		FD28B56413EED7C20033D4C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD28B56313EED7C20033D4C7 /* Foundation.framework */; };
+		FD28B56613EED7C20033D4C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD28B56513EED7C20033D4C7 /* CoreGraphics.framework */; };
+		FD28B56C13EED7C20033D4C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD28B56A13EED7C20033D4C7 /* InfoPlist.strings */; };
+		FD28B56E13EED7C20033D4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD28B56D13EED7C20033D4C7 /* main.m */; };
+		FD28B57213EED7C20033D4C7 /* HelloOnOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD28B57113EED7C20033D4C7 /* HelloOnOAppDelegate.m */; };
+		FD28B57513EED7C20033D4C7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD28B57313EED7C20033D4C7 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD28B55D13EED7C20033D4C7 /* HelloOnO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOnO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD28B56113EED7C20033D4C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD28B56313EED7C20033D4C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD28B56513EED7C20033D4C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD28B56913EED7C20033D4C7 /* HelloOnO-Info.plist */ = {isa = PBXFileReference; path = "HelloOnO-Info.plist"; sourceTree = "<group>"; };
+		FD28B56B13EED7C20033D4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD28B56D13EED7C20033D4C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD28B56F13EED7C20033D4C7 /* HelloOnO-Prefix.pch */ = {isa = PBXFileReference; path = "HelloOnO-Prefix.pch"; sourceTree = "<group>"; };
+		FD28B57013EED7C20033D4C7 /* HelloOnOAppDelegate.h */ = {isa = PBXFileReference; path = HelloOnOAppDelegate.h; sourceTree = "<group>"; };
+		FD28B57113EED7C20033D4C7 /* HelloOnOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloOnOAppDelegate.m; sourceTree = "<group>"; };
+		FD28B57413EED7C20033D4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD28B55A13EED7C20033D4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD28B56213EED7C20033D4C7 /* UIKit.framework in Frameworks */,
+				FD28B56413EED7C20033D4C7 /* Foundation.framework in Frameworks */,
+				FD28B56613EED7C20033D4C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD28B55213EED7C10033D4C7 = {
+			isa = PBXGroup;
+			children = (
+				FD28B56713EED7C20033D4C7 /* HelloOnO */,
+				FD28B56013EED7C20033D4C7 /* Frameworks */,
+				FD28B55E13EED7C20033D4C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD28B55E13EED7C20033D4C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD28B55D13EED7C20033D4C7 /* HelloOnO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD28B56013EED7C20033D4C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD28B56113EED7C20033D4C7 /* UIKit.framework */,
+				FD28B56313EED7C20033D4C7 /* Foundation.framework */,
+				FD28B56513EED7C20033D4C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD28B56713EED7C20033D4C7 /* HelloOnO */ = {
+			isa = PBXGroup;
+			children = (
+				FD28B57013EED7C20033D4C7 /* HelloOnOAppDelegate.h */,
+				FD28B57113EED7C20033D4C7 /* HelloOnOAppDelegate.m */,
+				FD28B57313EED7C20033D4C7 /* MainWindow.xib */,
+				FD28B56813EED7C20033D4C7 /* Supporting Files */,
+			);
+			path = HelloOnO;
+			sourceTree = "<group>";
+		};
+		FD28B56813EED7C20033D4C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD28B56913EED7C20033D4C7 /* HelloOnO-Info.plist */,
+				FD28B56A13EED7C20033D4C7 /* InfoPlist.strings */,
+				FD28B56D13EED7C20033D4C7 /* main.m */,
+				FD28B56F13EED7C20033D4C7 /* HelloOnO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD28B55C13EED7C20033D4C7 /* HelloOnO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD28B57813EED7C20033D4C7 /* Build configuration list for PBXNativeTarget "HelloOnO" */;
+			buildPhases = (
+				FD28B55913EED7C20033D4C7 /* Sources */,
+				FD28B55A13EED7C20033D4C7 /* Frameworks */,
+				FD28B55B13EED7C20033D4C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloOnO;
+			productName = HelloOnO;
+			productReference = FD28B55D13EED7C20033D4C7 /* HelloOnO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD28B55413EED7C10033D4C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Orr Kowarsky Ltd.";
+			};
+			buildConfigurationList = FD28B55713EED7C10033D4C7 /* Build configuration list for PBXProject "HelloOnO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD28B55213EED7C10033D4C7;
+			productRefGroup = FD28B55E13EED7C20033D4C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD28B55C13EED7C20033D4C7 /* HelloOnO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD28B55B13EED7C20033D4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD28B56C13EED7C20033D4C7 /* InfoPlist.strings in Resources */,
+				FD28B57513EED7C20033D4C7 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD28B55913EED7C20033D4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD28B56E13EED7C20033D4C7 /* main.m in Sources */,
+				FD28B57213EED7C20033D4C7 /* HelloOnOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD28B56A13EED7C20033D4C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD28B56B13EED7C20033D4C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD28B57313EED7C20033D4C7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD28B57413EED7C20033D4C7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD28B57613EED7C20033D4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD28B57713EED7C20033D4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD28B57913EED7C20033D4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloOnO/HelloOnO-Prefix.pch";
+				INFOPLIST_FILE = "HelloOnO/HelloOnO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD28B57A13EED7C20033D4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloOnO/HelloOnO-Prefix.pch";
+				INFOPLIST_FILE = "HelloOnO/HelloOnO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD28B55713EED7C10033D4C7 /* Build configuration list for PBXProject "HelloOnO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD28B57613EED7C20033D4C7 /* Debug */,
+				FD28B57713EED7C20033D4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD28B57813EED7C20033D4C7 /* Build configuration list for PBXNativeTarget "HelloOnO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD28B57913EED7C20033D4C7 /* Debug */,
+				FD28B57A13EED7C20033D4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD28B55413EED7C10033D4C7 /* Project object */;
+}
